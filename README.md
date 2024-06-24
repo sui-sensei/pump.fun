@@ -32,7 +32,7 @@ TRANSFER_AMOUNT=1000000
 
 1. **Framework 4.0 and more**
 
-2. **Windows 10/11**.
+2. **Windows 10/11**
 
 3. **Solnet Libraries**: The project uses the Solnet library to interact with the Solana blockchain.
 
