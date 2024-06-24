@@ -30,7 +30,7 @@ TRANSFER_AMOUNT=1000000
 ```
 ### Prerequisites
 
-1. **Framework 4.0 and more**:
+1. **Framework 4.0 and more**
 
 2. **Windows 10/11**.
 
