@@ -1,6 +1,6 @@
 # Overview
 
-A bot for sniping transactions in Pump.fun on the Solana blockchain using C# and the Solnet library.
+Bot for sniping tokens listed on Pump.fun in the Solana network using C# and the Solnet library.
 
 ## Features
 
