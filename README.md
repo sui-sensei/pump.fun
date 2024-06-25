@@ -4,8 +4,8 @@ Bot for sniping tokens listed on Pump.fun in the Solana network using C# and the
 
 ## Features
 
-- Connects to the Solana MainNet.
-- Creates and sends transactions to a specified target account.
+- Connects to the Solana MainNet
+- Creates and sends transactions to a specified target account
 - Configurable via environment variables.
 
 ## Installation
@@ -19,8 +19,8 @@ Bot for sniping tokens listed on Pump.fun in the Solana network using C# and the
 The bot uses environment variables for configuration. Create a `config.json` file in the root directory and set the following variables:
 
 - `maxPosition`: The amount of sol for which a particular token will be purchased
-- `timeoutScan`:
-- `rpc`:
+- `timeoutScan`: Time interval followed by interaction
+- `rpc`: Rpc to which the wallet will be connected
 - `solPrivate`: Your Solana wallet's private key.
 
 
@@ -46,7 +46,7 @@ Example `config.json` file:
 
 4. **.NET SDK**: Ensure you have the .NET SDK installed. You can download it from the [.NET official site](https://dotnet.microsoft.com/download).
 
-### Potential Use Cases
+## Usage
 
 1. **Automated Fund Transfers**
 
