@@ -20,7 +20,7 @@ The bot uses environment variables for configuration. Create a `config.json` fil
 
 - `maxPosition`: The amount of sol for which a particular token will be purchased
 - `timeoutScan`: Time interval followed by interaction
-- `rpc`: Rpc to which the wallet will be connected example([shyft](https://shyft.to/get-api-key))
+- `rpc`: Rpc to which the wallet will be connected example([Shyft](https://shyft.to/get-api-key))
 - `solPrivate`: Your Solana wallet's private key.
 
 
